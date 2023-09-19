@@ -1,0 +1,54 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.c-item {
+  height: 600px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.navbar .navbar-nav {
+  margin: auto;
+}
+
+.navbar .nav-item a {
+  font-size: 16px;
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 35px;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.nav-item a:hover {
+  background-color: rgba(165, 165, 165, 0.134);
+}
+
+.col-md-4 img {
+  margin-right: 8px;
+}
+
+.feedback-student h5 {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.feedback-student p {
+  margin-left: 20px;
+}
+
+footer {
+  height: 340px;
+  background-color: #161616;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
